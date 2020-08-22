@@ -77,7 +77,7 @@ function keyPressed() {
 
 }
 function isTouching(){
-  if(bob1.Collide(bob2)){
+  if(bob1.isTouching(bob2)){
 
     Matter.Body.applyForce(bob5.body,bob5.body.position,{x:100,y:0})
   }
