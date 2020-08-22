@@ -72,12 +72,9 @@ function keyPressed() {
 	if (keyCode === UP_ARROW) {
   Matter.Body.applyForce(bob1.body,bob1.body.position,{x:-10,y:0})
 	}
-	if (keyCode === DOWN_ARROW) {
-  Matter.Body.applyForce(bob5.body,bob5.body.position,{x:10,y:0})
-  
-}
+	
 
-}
+
 function isTouching(){
   if(bob1.isTouching(bob2)){
 
@@ -85,8 +82,9 @@ function isTouching(){
   }
 
 }
-  
 }
+  
+
 
 
 
